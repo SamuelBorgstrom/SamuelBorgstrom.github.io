@@ -399,6 +399,17 @@ nav{
     }
 }
 
+.like-button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.3rem 0.8rem;
+    border-style: bold;
+}
+
+.liked {
+    background-color: rgba(15, 79, 14, 0.486);
+}
+
 
 footer {
     background-color: rgb(9, 42, 9);
@@ -431,7 +442,7 @@ footer {
     content: '';
     width: 40px;
     height: 3px;
-    background: blue;
+    background: rgb(0, 255, 8);
     display: block;
     margin-top: 0.5rem;
     border-radius: 2px;
@@ -452,13 +463,13 @@ footer {
 }
 
 .footer-section a {
-    color: grey;
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-    color: rgb(10, 107, 10);
+    color: rgb(0, 255, 8);
 }
 
 .social-links {
@@ -470,7 +481,7 @@ footer {
 .social-link {
     width: 40px;
     height: 40px;
-    background: yellow;
+    background: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -481,7 +492,7 @@ footer {
 }
 
 .social-link:hover {
-    background: blue;
+    background: rgb(0, 255, 8);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -503,13 +514,12 @@ footer {
 
 
 
-<!-- FOOTER PLANERING VECKA 5
+/* FOOTER PLANERING VECKA 5
 Syfte: Professionell avslutning med kontaktmöjligheter
 Innehåll: Kontaktinfo, sociala medier, copyright
 Layout: Multi-kolumn grid för organiserad information
 Funktionalitet: Kontaktformulär med JavaScript-validering
 Helhetsbild: Footer kompletterar webbsidans professionella intryck
--->
 
 
 
