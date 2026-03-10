@@ -339,13 +339,18 @@ nav{
 .card-image {
     background-color:#0c5512;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
     position: relative;
     
+}
+
+.card-image img {
+    max-width: 100%;
+    height: 250px;
 }
 
 .card-content {

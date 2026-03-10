@@ -15,6 +15,13 @@
     
 </head>
 <body>
+    <!-- NAVIGATIONSPLANERING VECKA 1
+Syfte: Skapa horisontell navigation för min personliga webbsida
+Menyval: Hem, Om mig, Projekt, Kontakt (passar min portfolio-vision)
+Teknisk approach: Flexbox för layout, hover-effekter för interaktivitet så saker typ lyser upp när jag hoverar över dem
+Designmål: Minimalistisk men tydlig, matchar min personliga stil. Försöker även få färger och avstånd att passa så det ser bra ut för användare/besökare.
+Responsivitet: Ska fungera på mobil, kanske en hemsida som jag kan anvämnda senare.
+-->
     <nav>
         <div class="nav-container">
             <a href="#" class="logo">Min Portfolio</a>
@@ -26,6 +33,14 @@
             </ul>
         </div>
     </nav>
+
+<!-- HEADERPLANERING VECKA 2
+Syfte: Skapa stark hero-sektion som representerar mig, med kort beskrivning om mig själv.
+Första intryck: Professionell men personlig, kreativ utvecklare. Vill visa att jag utvecklas men ändå så det ser proffsigt ut.
+Färgschema: Jag kör en mer grön-svart gradient (lugn, tech-känsla)
+Innehåll: Kort presentation om mig själv men även en call-to-action till projekt.
+Teknisk approach: CSS gradients, stor typografi, centrerad layout för att göra det proffsigt och kunna visa upp informationen snyggt.
+-->
 
     <section class="hero-header">
         <div class="hero-content">
@@ -42,6 +57,14 @@
 
     </section>
 
+<!-- HUVUDINNEHÅLL PLANERING VECKA 3
+Syfte: Presentera vem jag är på ett engagerande sätt, och på ett proffsigt sätt.
+Innehållsstrategi: Balans mellan personligt och professionellt.
+Layout: Grid med text + bild/media för visuell balans. Egen bild som går under licencer och är fri att använda. Det är en kort version om mig som person.
+Interaktivitet: Färgväxlare-knapp för att testa JavaScript, inget som riktigt funkar men kul att testa på.
+Teknisk approach: CSS Grid, responsiv design, första JS-experiment.
+-->
+
         <main class="main-content">
             <div class="about-section">
                 <h2 class="section-title">Mitt namn är Samuel</h2>
@@ -49,7 +72,13 @@
                 <div class="about-grid">
                     <div class="profile-image">
                         <div class="image-placeholder">
-                            <img src="pingvin2.jpg" alt="">
+                            <img src="profil5.png" alt="">
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bild på en kille som sitter framför en dator och programerar.
+   Källa: https://unsplash.com/photos/man-in-black-long-sleeve-shirt-using-computer-_Fx34KeqIEw
+   Licens: Unsplash Licence - Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use images from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile images from Unsplash to replicate a similar or competing service.
+   Innebär: Fri att använda, Så jag får använda den fritt inom deras licenskrav.
+-->
                         </div>
                     </div>
 
@@ -73,6 +102,13 @@
                 </div>
             </div>
 
+<!-- PORTFOLIO PLANERING VECKA 4
+Syfte: Visa upp mina intressen/projekt med engagerande kort.
+Innehållsval: 3 områden som representerar mina färdigheter, med allt från spelutveckling till mina framtidsplaner.
+Layout: Responsiv kortgalleri med auto-fit grid, detta ger mig frihet att använda de bilder jag vill.
+Interaktivitet: Like-system för att testa advanced JavaScript, fick det att fungera till slut så det även blir +1 och -1 när man likear eller avlikear.
+Användarupplevelse: Hover-effekter + klickbar feedback.
+-->
 
             <div class="portfolio-section">
                 <h2 class="section-title card-headtitle">Vad jag skapat</h2>
@@ -80,10 +116,18 @@
                 <div class="card-grid">
                     <!--Projekt 1-->
                     <div class="project-card">
-                        <div class="card-image">😊</div>
+                        <div class="card-image">
+                            <img src="bygga-spel.jpg" alt="">
+    <!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bild på en person som sitter med en spelkontroll framför en tv.
+   Källa: https://unsplash.com/photos/person-holding-game-controller-in-front-of-television-0woyPEJQ7jc
+   Licens: Unsplash Licence - Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use images from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile images from Unsplash to replicate a similar or competing service.
+   Innebär: Fri att använda, Så jag får använda den fritt inom deras licenskrav.
+    -->
+                        </div>
                         <div class="card-content">
-                            <h3 class="card-title">Retro Snake Game</h3>
-                            <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, assumenda minima vero debitis nostrum neque ab consectetur dolore sit distinctio totam, velit perferendis quas possimus placeat eos quo animi obcaecati.</p>
+                            <h3 class="card-title">Bygga Spel</h3>
+                            <p class="card-description">Jag arbetar med att skapa egna spel genom programmering. I mina projekt designar jag spelmekanik, skriver kod och testar funktioner för att få spelet att fungera. Målet är att utveckla mina kunskaper inom både programmering och spelutveckling.</p>
 
                             <div class="card-tags">
                                 <span class="tag">JavaScript</span>
@@ -96,7 +140,7 @@
                                     <span id="heart-1">🤍</span>
                                     Gilla
                                 </button>
-                                <span class="like-counter" id="count-1">12 gillningar</span>
+                                <span class="like-counter" id="count-1"><span>10</span> gillningar</span>
                             </div>
                         </div>
 
@@ -104,10 +148,18 @@
                     <!--End Projekt 1-->
                     <!--Projekt 2-->
                     <div class="project-card">
-                        <div class="card-image">😊</div>
+                        <div class="card-image">
+                            <img src="programering-bild.jpg" alt="">
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bild på en dator där någon håller på att prgramera eller iallafall är programmet uppe på skärmen.
+   Källa: https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw
+   Licens: Unsplash Licence - Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use images from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile images from Unsplash to replicate a similar or competing service.
+   Innebär: Fri att använda, Så jag får använda den fritt inom deras licenskrav.
+-->
+                        </div>
                         <div class="card-content">
-                            <h3 class="card-title">Retro Snake Game</h3>
-                            <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, assumenda minima vero debitis nostrum neque ab consectetur dolore sit distinctio totam, velit perferendis quas possimus placeat eos quo animi obcaecati.</p>
+                            <h3 class="card-title">Programering</h3>
+                            <p class="card-description">Jag arbetar med olika programmeringsprojekt där jag utvecklar och testar mina kunskaper inom kodning och problemlösning. Projekten kan innehålla allt från enkla program till mer avancerade lösningar där jag använder olika programmeringsspråk och tekniker. Målet är att lära mig mer om hur man bygger fungerande och effektiva digitala lösningar.</p>
 
                             <div class="card-tags">
                                 <span class="tag">JavaScript</span>
@@ -120,7 +172,7 @@
                                     <span id="heart-2">🤍</span>
                                     Gilla
                                 </button>
-                                <span class="like-counter" id="count-2">12 gillningar</span>
+                                <span class="like-counter" id="count-2"><span>11</span> gillningar</span>
                             </div>
                         </div>
 
@@ -128,10 +180,18 @@
                     <!--End Projekt 2-->
                     <!--Projekt 3-->
                     <div class="project-card">
-                        <div class="card-image">😊</div>
+                        <div class="card-image">
+                            <img src="framtidsplaner.jpg" alt="">
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bild på en kille som jobabr med något på sin dator.
+   Källa: https://unsplash.com/photos/man-facing-three-computer-monitors-while-sitting-qAjJk-un3BI
+   Licens: Unsplash Licence - Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use images from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile images from Unsplash to replicate a similar or competing service.
+   Innebär: Fri att använda, Så jag får använda den fritt inom deras licenskrav.
+-->
+                        </div>
                         <div class="card-content">
-                            <h3 class="card-title">Retro Snake Game</h3>
-                            <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, assumenda minima vero debitis nostrum neque ab consectetur dolore sit distinctio totam, velit perferendis quas possimus placeat eos quo animi obcaecati.</p>
+                            <h3 class="card-title">Framtidsplaner</h3>
+                            <p class="card-description">I framtiden vill jag fortsätta utveckla mina kunskaper inom programmering och spelutveckling. Jag planerar att lära mig fler programmeringsspråk och arbeta med större projekt. Mitt mål är att kunna jobba med teknik eller spelutveckling i framtiden.</p>
 
                             <div class="card-tags">
                                 <span class="tag">JavaScript</span>
@@ -144,7 +204,7 @@
                                     <span id="heart-3">🤍</span>
                                     Gilla
                                 </button>
-                                <span class="like-counter" id="count-3">12 gillningar</span>
+                                <span class="like-counter" id="count-3"><span>12</span> gillningar</span>
                             </div>
                         </div>
 
@@ -155,6 +215,14 @@
 
             </div>
         </main>
+
+<!-- FOOTER PLANERING VECKA 5
+Syfte: Professionell avslutning med kontaktmöjligheter, som ser stilren ut.
+Innehåll: Kontaktinfo, sociala medier, copyright. För att besökare ska kunna nå mig på ett smidigt sätt.
+Layout: Multi-kolumn grid för organiserad information, även en hover funktion som gör att texten byter färg och ger ett interaktivt utseende när man hovrar. Så det liksom ser ut som att man kan trycka på den, har inte löst det riktigt än men det är något jag gärna lägger till i framtiden om jag har tid.
+Funktionalitet: Kontaktformulär med JavaScript-validering. Har gjort att man kan trycka på vissa texter och du skickas vidare men har inget riktigt ställe du som du skickas till men det är ändå ett steg på vägen.
+Helhetsbild: Footer kompletterar webbsidans professionella intryck, med hjälp av kontaktinformation och för att visa att sidan avslutas.
+-->
 
         <footer>
             <div class="footer-container">
@@ -206,18 +274,31 @@
         <script>
             function toggleLike(projectId) {
                 const button = document.querySelector(`#heart-${projectId}`).parentNode
-                const heart =document.querySelector(`#heart-${projectId}`)
+                const heart = document.querySelector(`#heart-${projectId}`)
+                const countEl = document.querySelector(`#count-${projectId} span`)
+
+                console.log(countEl.innerHTML)
                 
                 if(button.classList.contains('liked')) {
                     button.classList.remove('liked')
                     heart.textContent = "🤍"
-                    console.log("unlike")
+                    // console.log("unlike")
+                    countEl.innerHTML--
+
+
+
+
                 } else {
                     button.classList.add('liked')
                     heart.textContent = "💚"
-                    console.log("like")
+                    // console.log("like")
+                    countEl.innerHTML++
+
+
+
                 }
             }
+
 
 
         </script>
