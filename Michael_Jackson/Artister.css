@@ -1,0 +1,25 @@
+.main-nav {
+    background-color: #111111;
+    /* height: 70px; */
+    display: grid;
+    grid-template-columns: min(350px) 1fr min(350px);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    color: #fff;
+}
+
+ul {
+    color: #fff;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
