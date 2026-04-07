@@ -23,3 +23,9 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+header {
+    background-color: red;
+    background-image: url("3\ Michael\ J/Queen.jpg");
+    height: 1080px;
+}
