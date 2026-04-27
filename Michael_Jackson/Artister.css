@@ -155,3 +155,29 @@ main div:nth-of-type(4n -1) {
     padding-right: 20px;
     height: 100%;
 }
+
+.footer-section a {
+    color: black;
+}
+
+.footer-section p {
+    color: black;
+}
+
+footer {
+    background-color: blue;
+}
+
+.footer-container {
+    background-color: red;
+}
+
+.footer-grid {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    > * {
+        background-image: linear-gradient(45deg, white, black);
+    }
+}
