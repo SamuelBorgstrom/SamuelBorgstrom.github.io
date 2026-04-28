@@ -27,7 +27,7 @@ Kvalitetsmål: När jag jobbat så mcyket jag hunnit och iallafall komprimerat o
             <h1>
                 Artister Genom Tiderna
             </h1>
-            <ul>
+            <ul class="main-links">
                 <li>
                     <a href="#">Meny</a>
                 </li>
@@ -40,6 +40,8 @@ Kvalitetsmål: När jag jobbat så mcyket jag hunnit och iallafall komprimerat o
 
             </ul>
         </nav>
+<!-- Här uppe är var jag skapade nav längst uppe med namn på hemsidan tydligt och sedan tre mindre texter uppe till höger. Inte lyckats gör mer med dem utan lade fokus på bilderna istället.
+-->
 
 <!-- Fick lägga fokus i på lektionen att fixa min planering i wireframe för alla bilder blev helt fel men det är något jag ska fixa så fort som möjligt, även hemma.
 -->
@@ -52,9 +54,12 @@ Problem från förra gången: [Nä det är bara att jag fortfarande behöver fix
 Kvalitetsmål: [När alla bilder är klara och jag kunnat komma en liten bit med koden till.]
 -->
 
+<!-- Detta här under är header-sektionen där jag i cssn har lagt in en bild på queen som bakgrundsbild för att göra det lättare att positionera bilden på hemsidan. Har skapat ett område framför bilden som är lite transparant, dett ahar jag gjort eftersom jag vill att texten ska synas bättre.
+-->
+
 <header class="site-header">
         
-        <h2>
+        <h2 id="Tillbaka_till_toppen">
             Välkommen
         </h2>
 
@@ -69,24 +74,27 @@ Problem från förra gången: [Jag behöver fixa header området så det ser bä
 Kvalitetsmål: [När jag kommit en bit in på grid-området.]
 -->
 
+<!-- Här under är det stora området på min hemsida, griden jag skapat gör att bilderna och texterna samspelar på varannan sida hela vägen ner. Sedan har jag gjort bilderna till rätt storlek samt lagt in en besrkivande text bredvid varje bild.
+-->
+
     <main>
         <div class="text-center">
-            <p id="zepplin">Led Zippelin</p>
+            <p id="zeppelin">Led Zeppelin</p>
             <p>Led Zeppelin var ett brittiskt rockband som bildades i slutet av 1960-talet och blev en av de mest inflytelserika grupperna inom hårdrock och bluesrock. Bandet bestod av Robert Plant (sång), Jimmy Page (gitarr), John Paul Jones (bas/keyboard) och John Bonham (trummor).
 
             De slog igenom med låtar som “Stairway to Heaven” och var kända för sin kraftfulla ljudbild, tekniska skicklighet och inflytande på rockmusiken. Bandet upplöstes 1980 efter att John Bonham avled, men deras musik fortsätter att inspirera artister världen över.</p>
         </div>
         <div>
-            <img src="3 Michael J/Led_Zeppelin 3.jpg" alt="">
+            <img src="3-Michael-J/Led_Zeppelin-3.jpg" alt="Zeppelin">
         </div>
         <div class="text-center">
-            <p>Jackson 5</p>
+            <p id="Jackson_5">Jackson 5</p>
             <p>The Jackson 5 var en amerikansk familjegrupp som slog igenom i slutet av 1960-talet med en energisk mix av pop, soul och funk. Gruppen bestod bland annat av bröderna Michael Jackson, Jackie Jackson, Tito Jackson, Jermaine Jackson och Marlon Jackson.
 
             De blev snabbt stora genom Motown och fick flera hits som “I Want You Back” och “ABC”. Gruppen var känd för sina tighta harmonier, koreograferade danssteg och unga Michael Jacksons starka scennärvaro. Senare gick medlemmarna vidare till egna karriärer, där Michael Jackson blev en av världens största soloartister.</p>
         </div>
         <div>
-            <img src="3 Michael J/Jackson 5 3.jpg" alt="">
+            <img src="3-Michael-J/Jackson-5-3.jpg" alt="Jackson_5">
         </div>
         <div class="text-center">
             <p>U2</p>
@@ -95,10 +103,13 @@ Kvalitetsmål: [När jag kommit en bit in på grid-området.]
             De är kända för sin anthemiska rock, känsloladdade texter och stora liveframträdanden, med hits som “With or Without You” och “One”. Under sin karriär har de kombinerat musik med politiskt och socialt engagemang och fortsatt vara relevanta över flera decennier.</p>
         </div>
         <div>
-            <img src="3 Michael J/U2 3.jpg" alt="">
+            <img src="3-Michael-J/U2-3.jpg" alt="U2">
         </div>
         
     </main>
+
+<!-- Här under har vi foo fighters, det är ett större område längst nere innan footern, denna bilden stäcker sig också från sida till sida. Här har jag också gjort en transparant ruta över bilden för att texten ska synas bättre i kontrast mot det svarta.
+-->
 
     <div class="x">
             <div>
@@ -107,7 +118,7 @@ Kvalitetsmål: [När jag kommit en bit in på grid-området.]
 
             De är kända för sin energiska alternativrock och starka liveshower, med låtar som “Everlong” och “The Pretender”. Under åren har de blivit ett av de mest framgångsrika rockbanden i modern tid och vunnit flera priser, samtidigt som de behållit en rå och kraftfull stil.</p>
             </div>
-            <img src="3 Michael J/Foo Fighters 2.jpg" alt="">
+            <img src="3-Michael-J/Foo-Fighters-2.jpg" alt="Foofighters" class="y">
         </div>
    <!-- Nästa gång- ta bort 30 pixlar på alla bidlernas bredd förutom foo fighters.
 -->
@@ -128,25 +139,34 @@ Ska jobba med det idag för att försäkra mig om att jag hinner klart till imor
         <div class="footer-container">
             <div class="footer-grid">
                 <div class="footer-image">
-                    <a href="#" class="footer-image">
-                        <img src="3 Michael J/Evanescence.jpg" alt="">
+                    <a href="#" class="Nickelback">
+                        <div>
+                            <img src="3-Michael-J/Nickelback.jpg" alt="Nickelback">
+                        </div>
                     </a>
-                    <a href="#" class="social-link">
-                        <img src="3 Michael J/Justin Bieber.jpg" alt="">
+                    <a href="#" class="Evanescence">
+                        <div>
+                            <img src="3-Michael-J/Evanescence.jpg" alt="Evanescence">
+                        </div>
                     </a>
-                    <a href="#" class="social-link">
-                        <img src="3 Michael J/Nickelback.jpg" alt="">
+                    <a href="#" class="Justin">
+                        <div>
+                            <img src="3-Michael-J/Justin-Bieber.jpg" alt="Justin_Bieber">
+                        </div>
                     </a>
+                    
                 </div>
 
+<!-- Här uppe och här nere ligger footer-området. Här uppe har jag mina bilder som finns i footern. Om man kollar här nere så har jag gjort två div-områden med olika information. I cssn har jag gjort en större grid i footern som skapar tre horisontella områden och delar på bilderna och de två text delarna. I den vänstra rutan har jag också gjort ytterligare grid som utgör tre mindre områden och skilldrar bilderna med en uppe och två bilder under.
+-->
     
                 <div class="footer-section">
                     <h3>Snabblänkar</h3>
                     <ul>
-                        <li><a href="Tillbaka till toppen">Tillbaka till toppen</a></li>
-                        <li><a href="#zepplin">Led Zippelin</a></li>
-                        <li><a href="Jackson 5">jackson 5</a></li>
-                        <li><a href="U2">U2</a></li>
+                        <li><a href="#Tillbaka_till_toppen">Tillbaka till toppen</a></li>
+                        <li><a href="#zeppelin">Led Zippelin</a></li>
+                        <li><a href="#Jackson_5">jackson 5</a></li>
+                        <li><a href="#U2">U2</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -158,5 +178,17 @@ Ska jobba med det idag för att försäkra mig om att jag hinner klart till imor
             </div>
         </div>
     </footer>
+
+    <!--
+Nu är det bara css kvar ingen mer html. Ge alla artist områden id som vi redan gjort på zepplin. Så man kan klicka tillbaka till olika områden. Gör också nickelback bilden till samma storlek som de andra.
+-->
+
+<!-- SESSIONSPLANERING - LEKTION [6/Sista lektionen]
+Dagens mål: [Bli färdig med footern och på sås sätt även bli klar med hela hemsidan.]
+Teknisk utmaning: [Jag ska idag skapa en grid i en annan grid vilket känns lite klurigt. Men det löser sig säkert.]
+Bildhantering-fokus: [De sista tre som ska ligga i footern.]
+CSS-tekniker: [I css är det just arbetet med grid som kommer användas idag.]
+Kvalitetsmål: [När jag är klar med hemsidan och lämnat in allt.]
+-->
 </body>
 </html>
